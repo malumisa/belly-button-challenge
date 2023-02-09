@@ -39,20 +39,20 @@ function buildCharts(sample) {
     //----------------------------------------------//
                 // Building a bar chart//
     //----------------------------------------------//
-        var chart1 = {
+        var trace1 = {
             x: sampleValuesSlice,
             y: otuIdsSlice.map(item => `OTU ${item}`),
             type: "bar",
             orientation: "h",
             text: otuLabelsSlice,
         };
-        var data = [chart1];
-        Plotly.newPlot("bar", data)
+        var data1 = [trace1];
+        Plotly.newPlot("bar", data1)
 
     //---------------------------------------------------------//
     //----------------------------------------------------------//
                 // Building  a bubble chart//
-        var chart2 = {
+        var trace2 = {
             x: otuIds,
             y: sampleValues,
             mode: "markers",
@@ -63,7 +63,7 @@ function buildCharts(sample) {
             },
             text: otuIds
         };
-        var data2 = [chart2];
+        var data2 = [trace2];
         var layout = {
             showlegend: false
         };
