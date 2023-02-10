@@ -1,4 +1,8 @@
 # belly-button-challenge
+
+## Link to the visuzalization demo
+https://malumisa.github.io/bellybutton_demo.github.io/
+
 In this project, the task to build an interactive dashboard to explore the Belly Button Biodiversity dataset, which gathers the microbes that colonize human navels.
 This dataset reveals that a small handful of microbial species (also known as  operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
